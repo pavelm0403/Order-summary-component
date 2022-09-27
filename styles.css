@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    background: hsl(225, 100%, 98%);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.block {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-basis: 0; */
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    height: 700px;
+    /* position: fixed; */
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.hero {
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+
+.text {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.btn1 {
+background: hsl(245, 75%, 52%);
+border: none;
+border-radius: 10px;
+font-family: 'Outfit', sans-serif;
+color: white;
+cursor: pointer;
+padding: 17px 107px;
+}
+
+.btn2 {
+    background: white;
+    border-radius: 10px;
+    font-family: 'Outfit', sans-serif;
+    color: rgba(97, 95, 95, 0.678);
+    padding: 0 20px 90px 20px;
+    /* border: 1px solid black; */
+    }
+
+    .music {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        background-color: hsl(225, 100%, 98%);
+        border-radius: 10px;
+        padding: 20px 25px;
+    }
+
+    .music > div {
+        /* border: 1px solid black; */
+        padding: 0 35px;
+    }
+
+    .music > div:nth-child(1) {
+        padding: 0 10px 0 10px;
+     }
+
+    .music > div:nth-child(2) {
+       padding: 0 60px 0 0;
+    }
+
+    .music > div:nth-child(3) {
+        padding: 10px 20px 0 0;
+     }
+ 
